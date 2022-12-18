@@ -4,7 +4,7 @@
   "fullName": { "string": {} },
   "age": { "int": { "min": 1, "max": 75 } },
   "isActive": { "boolean": {} },
-  "Address":{}
+  "address":{"hasMany":"Adress"}
   },  
   "Adress":{
     "streetName": { "string": {} },
