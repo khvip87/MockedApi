@@ -2,10 +2,14 @@
   "User":{
   "userName": { "string": {} },
   "fullName": { "string": {} },
-  "Adress":{{ "string": {} }, { "string": {} }},
+  "Adress":{"Adress"},
   "age": { "int": { "min": 0, "max": 1000000 } },
   "isActive": { "boolean": {} }
-},
+  },
+  "Adress":{
+  "streetName": { "string": {} },
+  "BuildingNumber": { "string": {} }
+  },
   "Post": {
     "title": { "string": {} },
     "comments": {
