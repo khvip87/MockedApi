@@ -2,7 +2,7 @@
   "User":{
   "userName": { "string": {} },
   "fullName": { "string": {} },
-  "adress":{{ "string": {} }, { "string": {} }},
+  "Adress":{{ "string": {} }, { "string": {} }},
   "age": { "int": { "min": 0, "max": 1000000 } },
   "isActive": { "boolean": {} }
 },
