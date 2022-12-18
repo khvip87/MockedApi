@@ -1,9 +1,9 @@
 {
   "User":{
-  "userName": "string",
-  "fullName": "string",
-  "adress":{"streetname":"string", "buildingNumber":"number"},
-   "age": "number"
+  "userName": { "string": {} },
+  "fullName": { "string": {} },
+  "adress":{{ "string": {} }, { "string": {} }},
+   "age": { "number": {} }
 },
   "Post": {
     "title": { "string": {} },
