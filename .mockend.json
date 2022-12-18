@@ -3,7 +3,8 @@
   "userName": { "string": {} },
   "fullName": { "string": {} },
   "adress":{{ "string": {} }, { "string": {} }},
-   "age": { "number": {} }
+   "age": { "int": {} },
+"isActive": { "boolean": {} }
 },
   "Post": {
     "title": { "string": {} },
