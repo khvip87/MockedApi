@@ -3,7 +3,7 @@
   "userName": { "string": {} },
   "fullName": { "string": {} },
   "adress":{{ "string": {} }, { "string": {} }},
-   "age": { "int": {} },
+  "age": { "int": { "min": 0, "max": 1000000 } }
 "isActive": { "boolean": {} }
 },
   "Post": {
