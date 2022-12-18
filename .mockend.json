@@ -1,4 +1,10 @@
 {
+  User{
+  userName: string,
+  fullName:string,
+  adress:{streetname:string, buildingNumber:number}
+age: number
+},
   "Post": {
     "title": { "string": {} },
     "comments": {
