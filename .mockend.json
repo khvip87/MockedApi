@@ -3,7 +3,8 @@
   "userName": { "string": {} },
   "fullName": { "string": {} },
   "age": { "int": { "min": 1, "max": 75 } },
-  "isActive": { "boolean": {} }
+  "isActive": { "boolean": {} },
+  "Address":{"Adress"}
   },  
   "Adress":{
     "streetName": { "string": {} },
